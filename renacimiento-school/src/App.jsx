@@ -77,7 +77,6 @@ function App() {
   
   <div className="title-section">
     <h1 className="school-name">RENACIMIENTO SCHOOL</h1>
-    <div className="school-subtitle">42 AÑOS DE SEGUIR TRABAJANDO</div>
     <div className="school-image">
       <img src={schoolImage} alt="Renacimiento School" />
     </div>
