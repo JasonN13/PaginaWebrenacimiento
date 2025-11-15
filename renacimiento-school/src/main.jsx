@@ -8,7 +8,7 @@ import './styles/infoSection.css'
 import './styles/banner.css'
 import './styles/navbar.css'
 import './styles/slideshow.css'
-
+import './App.css'
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(

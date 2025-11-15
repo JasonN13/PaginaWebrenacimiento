@@ -1,12 +1,7 @@
-/*Modelo de uniforme-Plan de estudios-etc*/
-/* Footer */
 .footer {
+  margin-top: auto;
+  padding: 20px;
   text-align: center;
-  padding: 30px;
-  background-color: #121780;
-  color: #ffffff;
-  font-size: 1rem;
-  margin-top: 50px;
-  width: 100%;
-  border-top: 1px solid #e9ecef;
+  background: #121780;
+  color: white;
 }
