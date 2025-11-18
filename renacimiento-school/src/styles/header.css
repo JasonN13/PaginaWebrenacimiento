@@ -35,6 +35,8 @@
   font-weight: 700;
   text-align: center;
   letter-spacing: 3px; /* Espaciado como en el bosquejo */
+  width: 100%;
+  padding: auto;
 }
 
 .school-subtitle {
@@ -77,3 +79,4 @@
   text-align: center;
   letter-spacing: 2px;
 }
+

@@ -28,9 +28,21 @@
 
 /* Título */
 .banner-title {
-  font-size: 4rem;
+  font-size: 4rem; /* Tamaño desktop */
   color: white;
   font-weight: 800;
+}
+
+@media (max-width: 768px) {
+  .banner-title {
+    font-size: 2.5rem !important; /* Tamaño móvil */
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-title {
+    font-size: 2rem !important; /* Tamaño móvil pequeño */
+  }
 }
 
 /* Imagen */
@@ -56,3 +68,4 @@
     max-height: 40vh;
   }
 }
+
