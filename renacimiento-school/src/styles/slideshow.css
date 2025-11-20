@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px; /* ← REDUCIDO de 60px a 10px */
+  margin-bottom: 10px;
   padding: 0 20px;
 }
 
@@ -104,7 +104,7 @@
 
 /* Controles del slideshow - WEB */
 .slideshow-controls {
-  margin-top: 20px; /* ← REDUCIDO de 30px a 20px */
+  margin-top: 20px; 
   display: flex;
   justify-content: center;
   width: 100%;
@@ -116,7 +116,7 @@
   gap: 12px;
   background: rgba(255, 255, 255, 0.9);
   backdrop-filter: blur(10px);
-  padding: 12px 20px; /* ← REDUCIDO padding */
+  padding: 12px 20px; 
   border-radius: 30px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
@@ -147,7 +147,7 @@
     height: 60vh;
     min-height: 400px;
     max-height: 500px;
-    margin-bottom: 5px; /* ← REDUCIDO de 20px a 5px */
+    margin-bottom: 5px; 
     padding: 0 15px;
   }
   
@@ -169,11 +169,11 @@
   }
   
   .slideshow-controls {
-    margin-top: 15px; /* ← REDUCIDO */
+    margin-top: 15px; 
   }
   
   .dots-container {
-    padding: 10px 18px; /* ← REDUCIDO */
+    padding: 10px 18px; 
   }
   
   .dot-full {
@@ -187,7 +187,7 @@
     height: 60vh;
     min-height: 450px;
     max-height: 600px;
-    margin-bottom: 2px; /* ← REDUCIDO de 10px a 2px */
+    margin-bottom: 2px; 
     padding: 0 10px;
   }
   
@@ -209,11 +209,11 @@
   }
   
   .slideshow-controls {
-    margin-top: 12px; /* ← REDUCIDO */
+    margin-top: 12px; 
   }
   
   .dots-container {
-    padding: 8px 15px; /* ← REDUCIDO */
+    padding: 8px 15px; 
     gap: 10px;
   }
   
@@ -228,7 +228,7 @@
     height: 45vh;
     min-height: 300px;
     max-height: 350px;
-    margin-bottom: 0; /* ← CERO espacio */
+    margin-bottom: 0; 
     padding: 0 8px;
   }
   
@@ -250,11 +250,11 @@
   }
   
   .slideshow-controls {
-    margin-top: 0; /* ← REDUCIDO */
+    margin-top: 0; 
   }
   
   .dots-container {
-    padding: 6px 12px; /* ← REDUCIDO */
+    padding: 6px 12px; 
     gap: 8px;
   }
   
@@ -277,7 +277,7 @@
     height: 75vh;
     min-height: 600px;
     max-height: 800px;
-    margin-bottom: 5px; /* ← REDUCIDO de 10px a 5px */
+    margin-bottom: 5px; 
   }
   
   .slideshow-container-full {

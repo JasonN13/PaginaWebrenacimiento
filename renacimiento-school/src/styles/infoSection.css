@@ -10,8 +10,8 @@
 
 .contact-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* CAMBIADO: de 18rem a 300px */
-  gap: 25px;                     /* CAMBIADO: de 2rem a 25px */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 25px;                     
   justify-items: center;
   width: 100%;
 }
@@ -60,13 +60,13 @@
   color: inherit;
   display: block;
   transition: all 0.3s ease;
-  padding: 10px;                 /* NUEVO: mejor área de click */
-  border-radius: 8px;            /* NUEVO: bordes redondeados */
-  flex-grow: 1;                  /* NUEVO: para distribución uniforme */
+  padding: 10px;                 
+  border-radius: 8px;            
+  flex-grow: 1;                
 }
 
 .contact-link:hover {
-  background-color: #f8f9fa;     /* NUEVO: fondo al hacer hover */
+  background-color: #f8f9fa;     
 }
 
 .contact-link:hover .contact-content {
@@ -83,7 +83,7 @@
 /* MEJORAR el responsive actual: */
 @media (max-width: 1024px) {
   .contact-wrapper {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* CAMBIADO: para tablets */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* CAMBIO: para tablets */
     gap: 20px;
   }
   
@@ -107,7 +107,7 @@
   }
 
   .contact-box {
-    padding: 25px 20px;          /* CAMBIADO: de 2vh 4vw a 25px 20px */
+    padding: 25px 20px;          
     max-width: 100%;
     min-height: 160px;
   }
@@ -117,7 +117,7 @@
   }
 
   .contact-content {
-    font-size: 16px;             /* CAMBIADO: de 1rem a 16px */
+    font-size: 16px;             
     margin-bottom: 8px;          /* NUEVO: espacio consistente */
   }
 }
@@ -129,19 +129,19 @@
   }
   
   .contact-section {
-    padding: 15px 10px;          /* NUEVO: padding más pequeño */
+    padding: 15px 10px;          
   }
 
   .contact-box {
-    padding: 20px 15px;          /* NUEVO: padding más pequeño */
+    padding: 20px 15px;          
     min-height: 140px;
   }
 
   .contact-title {
-    font-size: 20px;             /* NUEVO: título más pequeño */
+    font-size: 20px;             
   }
 
   .contact-content {
-    font-size: 15px;             /* NUEVO: contenido más pequeño */
+    font-size: 15px;             
   }
 }

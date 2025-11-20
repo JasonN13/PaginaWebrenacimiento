@@ -5,7 +5,7 @@ const InfoSection = () => {
         <div className="contact-box">
           <h3 className="contact-title">Ubicación</h3>
           <a
-            href="https://www.google.com/maps/search/?api=1&query=Col.+Mayangle"
+            href="https://n9.cl/qneki"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-link"
