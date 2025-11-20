@@ -8,7 +8,7 @@
 /* ===== VERSIÓN WEB (Desktop) ===== */
 .fullscreen-slideshow {
   width: 100%;
-  height: 70vh;
+  height: 90vh;
   position: relative;
   background: #f8f9fa;
   display: flex;
@@ -184,9 +184,9 @@
 
 @media (max-width: 768px) {
   .fullscreen-slideshow {
-    height: 50vh;
-    min-height: 350px;
-    max-height: 400px;
+    height: 60vh;
+    min-height: 450px;
+    max-height: 600px;
     margin-bottom: 2px; /* ← REDUCIDO de 10px a 2px */
     padding: 0 10px;
   }
